@@ -1,1 +1,1 @@
-Para entrar al proyecto y ver su funcionalidad click aqui: <a>netflixperu.sytes.net</a>
+Para entrar al proyecto y ver su funcionalidad click <a href="netflixperu.sytes.net">AQUI</a>
