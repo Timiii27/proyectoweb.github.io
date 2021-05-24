@@ -1,1 +1,1 @@
-Para ver el proyecto entra aqui : netflixperu.sytes.net
+Para entrar al proyecto y ver su funcionalidad click aqui: netflixperu.sytes.net
