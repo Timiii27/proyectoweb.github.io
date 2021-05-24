@@ -1,0 +1,132 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* Descuento */
+.descuento {
+    background-color: rgba(0, 0, 0, 0.911);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+footer h3 {
+    color: white;
+    font-weight: bold; 
+}
+.tiempo {
+    font-style: italic;
+}
+.blink_me {
+    animation: blinker 4s linear infinite;
+}
+
+/* Navegacion */
+ .navegacion {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed; 
+    box-shadow:  0px 4px 8px rgba(0,0,0,0.62);
+
+ }
+ .navegacion a:hover {
+     background-color: red;
+ }
+.static {
+    width: 100%;
+	position: fixed;
+}
+nav a {
+
+    color: white;
+    font-size: 30px;
+    padding: 5px 150px;
+}
+.static a:hover {
+    background-color: #115363;
+    color: white;
+}
+
+/*Imagen Fondo */
+.fondo {
+    background: url('../img/fondo.jpg');
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.boton {
+    background-color: #135263;
+}
+button a {  
+    padding: 10px 20px;
+    color: white;
+    box-shadow: inherit;
+}
+.boton:hover {
+  transform: translateY(-4px);
+}
+button a:hover {
+    color: white;
+}
+/* Precios */
+.preciosout {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.card {
+    background-color: #ebf3f5;
+    height: 70%;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.62);;
+}
+/* Animaciones */
+ @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+/* Media */
+
+@media (min-width:0px) and (max-width: 600px) {
+    .fondo {
+      height:40vh;
+      width: 100vw;
+    }
+    .boton {
+        background-color: #EBD093;
+    }
+    .fondo h1 {
+        color: white;
+        text-align: center;
+    }
+  }
+  

@@ -1,0 +1,68 @@
+body {
+    background-color: #141414;
+}
+a{
+    text-decoration: none;
+}
+
+.peli {
+    height: auto;
+    width: 190px;
+}
+.peli img {
+   max-width: 100%;
+   height: 70%; 
+
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 110px;
+    background-color:#332a2a83 ;
+    align-items: center;
+}
+.titulo {
+    margin:4px;
+    padding: 0px 10px;
+}
+.val {
+    background-color: rebeccapurple;
+    margin:4px;
+    padding: 0px 4px;
+
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+}
+@media (min-width:0px) and (max-width:600px) {
+    main {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width:601px) and (max-width:900px) {
+    main {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (min-width:901px) and (max-width:1300px) {
+    main {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media (min-width:1301x) and (max-width:1640px) {
+    main {
+        grid-template-columns: repeat(6,1fr);
+    }
+}
+.volver {
+
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
